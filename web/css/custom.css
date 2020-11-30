@@ -1,0 +1,169 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 26, 2020, 5:23:24 PM
+    Author     : Admin
+*/
+
+.border-padding {
+    padding: 5px;
+}
+
+.form-padding {
+    padding: 5px;
+}
+
+.btn-margin {
+    margin: 5px;
+}
+
+.form-margin {
+    margin: 5px;
+}
+
+.set-max-width {
+    max-width: 500px;
+}
+
+
+.set-max-width-700 {
+    max-width: 700px;
+}
+
+.set-max-width-1000 {
+    max-width: 1000px;
+}
+
+.set-left-margin {
+    margin-left: 20px;
+}
+
+.set-all-margin-e-left {
+    margin: 20px;
+}
+
+.set-margin {
+    margin: 10px;
+}
+.font-size-default{
+    font-size: 20px;
+}
+
+.set-top-margin-lg {
+    margin-top: 50px;
+}
+
+.set-top-margin-md {
+    margin-top: 20px;
+}
+
+.header-color {
+    background-color: #031043;
+    color: white;
+}
+
+.set-padding {
+    padding: 0px;
+}
+
+.set-bottom-margin {
+    margin-bottom: 5px;
+}
+
+.set-right-margin {
+    margin-right: 20px;
+}
+
+.logout-color {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: large;
+    /*color:#000000;*/
+}
+
+body {
+    background-color: #F2F3FE;
+}
+
+.set-badge-color {
+/*    background-color: #0E5AA8;*/
+    /*background-color: #8D8484;*/
+    font-size: 25px;
+}
+
+.set-badge-color-1 {
+    background-color: #FC2B2B;
+}
+
+.set-background-color-grey {
+    background-color: #F9F7FF;
+    padding: 40px;
+    font-size: 20px;
+}
+
+.set-background-color-comment {
+    background-color: #F9F7FF;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.noti-num {
+    display: inline-block;
+    margin: 2px;
+    padding: 2px;
+    height: 30px;
+    background-color: #FF0404;
+    color: #FFFFFF;
+    border-radius: 0%
+    
+}
+
+.noti-icon {
+    display: inline-block;
+    margin: 2px;
+    margin-right: 2px;
+    padding: 10px;
+    background-color: #F5F5F5;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    border-radius: 60%;
+}
+
+.fa-bell {
+    
+    color: black;
+}
+
+.set-div-background-color {
+    background-color: #FFFFFF;
+}
+
+.text-font-bold {
+    font-weight: bold;
+}
+
+.display-inline {
+    font-weight: bold;
+    display: inline;
+}
+
+.fa-thumbs-up {
+    color:black;
+}
+
+.fa-thumbs-down {
+    color:black;
+}
+
+.fa-home {
+    color:white; 
+}
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+  color: black;
+}

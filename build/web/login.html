@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">	
+        <link rel="stylesheet" type="text/css" href="css/custom.css">
+        <style type="text/css">
+            body{
+                padding: 20px 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="badge badge-primary font-size-default set-left-margin" style="width: 30rem;">
+            <h2 class="text-font-bold">LOGIN</h2>
+        </div>
+
+        <div class="border border-primary border-padding set-max-width-1000 set-left-margin set-div-background-color">
+            <form action="DispatcherServlet" method="POST" id="loginform">
+
+                <div class="form-group row">
+                    <label for="inputUsername" class="col-sm-1 col-form-label">Username:</label>
+
+                    <div class="col-sm-3">
+                        <input type="email" name="txtUsername" value="" required class="form-control"  id="inputUsername"/> 
+                    </div>
+                </div>
+
+                <br/>
+
+                <div class="form-group row">               
+                    <label for="inputPassword" class="col-sm-1 col-form-label">Password:</label>
+
+                    <div class="col-sm-3">
+                        <input type="password" name="txtPassword" value="" required class="form-control" id="inputPassword"/> 
+                    </div>
+                </div>
+
+
+
+
+                <br/>
+
+                <input type="submit" value="Login" name="btnAction" class="btn btn-primary" />
+                <input type="reset" value="Reset" class="btn btn-primary" />
+
+
+            </form>
+
+
+            <br/>
+        </div>
+        <div class="font-size-default set-left-margin set-top-margin-lg" style="width: 20rem;">
+            <h6>
+                Still not have an account? Register
+                <a href="register.jsp">here</a>
+            </h6>
+
+        </div>
+
+
+    </body>
+</html>
